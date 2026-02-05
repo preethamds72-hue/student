@@ -127,19 +127,20 @@ button {
 
 .home-bg {
     min-height: 100vh;
-    background: #f2f6ff;
+    background: #112e70;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .home-container {
-    background: white;
+    background: rgb(223, 218, 218);
     padding: 40px;
     border-radius: 15px;
     text-align: center;
-    width: 80%;
-    max-width: 800px;
+    width: 180%;
+    max-width: 1200px;
+    height: 80vh;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
@@ -180,14 +181,14 @@ button {
 .card-back {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 125%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
 }
 
